@@ -1,0 +1,61 @@
+.home-image {
+    display: flex;
+    background-color: red;
+    position: relative;
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+    
+}
+.home-image__logo {
+    width: 500px;
+    height: 150px;
+    display: flex;
+    margin: 20px;
+}
+.home-image__pokebola {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    right: 10em;
+    bottom: -3.3em;
+}
+.home-title__trainer {
+    font-size: 4.5rem;
+    margin: 30px;
+}
+.home-image__trainer {
+    width: 300px;
+    justify-content: right;
+}
+.home-container__principal {
+    position: relative;
+}
+.home-container__trainer {
+    position: absolute;
+    margin-left: 400px;
+    top: 0;
+}
+.home-start {
+    font-size: 1.5rem;
+    margin: 130px 0 0 30px;
+}
+.home-form {
+    margin: 10px 0 0 30px;
+    
+}
+.home-input {
+    height: 2em;
+    width: 15em;
+    border-radius: 5px 0px 0px 5px;
+}
+.home-button {
+    background-color: rgb(218, 39, 39);
+    height: 2em;
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width: 800px) {
+    .home-image__pokebola {
+        display: none;
+    }
+}

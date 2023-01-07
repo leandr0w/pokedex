@@ -1,0 +1,47 @@
+.poke-container {
+    display: grid;
+    gap: 2rem;    
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    align-items: center;
+    justify-content: center;
+}
+.pokedex-title__trainer {
+    font-size: 2rem;
+    margin: 50px 0 20px 20px;
+}
+.pokedex-form__form {
+    margin: 0 0 0 20px;
+}
+.pokedex-form__input {
+    width: 24em;
+    height: 3em;
+    border-radius: 5px 0 0 5px;
+}
+.pokedex-form__button {
+    border-radius: 0 5px 5px 0;
+    height: 3em;
+    width: 6em;
+    background-color: rgb(218, 39, 39);
+}
+.pokedex-select {
+    margin: 0 0 0 20px;
+    height: 3em;
+}
+.pokedex-select__value:focus {
+   background-color: rgb(218, 39, 39);
+}
+
+@media (max-width: 800px) {
+    .home-image__pokebola {
+        display: none;
+    }
+    .home-image__logo {
+        width: 100%;
+    }
+    .poke-container {
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+    }
+ 
+}
